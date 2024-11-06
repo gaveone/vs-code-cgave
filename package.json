@@ -3,6 +3,7 @@
   "displayName": "c++AD",
   "description": "My VS code pack",
   "version": "0.0.1",
+  "publisher": "your-publisher-name",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -11,6 +12,10 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaveone/vs-code-cgave"
+  },
   "contributes": {
     "commands": [
       {
@@ -44,7 +49,6 @@
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
   },
-  
   "extensionPack": [
     "ms-vscode.cpptools",
     "ms-vscode.cpptools-extension-pack",
@@ -58,6 +62,6 @@
     "danielpinto8zz6.c-cpp-project-generator",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "keshavanarayanan.c-includes",
-    "ajshort.include-autocomplete"  
+    "ajshort.include-autocomplete"
   ]
 }
